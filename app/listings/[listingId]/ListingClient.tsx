@@ -12,6 +12,7 @@ import axios from 'axios';
 import { toast } from 'react-hot-toast';
 import ListingReservation from '@/app/components/listings/ListingReservation';
 import { Range } from 'react-date-range';
+import { Reservation } from '@prisma/client';
 
 const initialDateRange={
     startDate: new Date(),
@@ -20,7 +21,7 @@ const initialDateRange={
 };
 
 interface ListingClientProps{
-    reservations?:SafeReservation[];
+    reservations?:SafeReservation[] ;
     listing :SafeListing &{
         user:SafeUser;
     }

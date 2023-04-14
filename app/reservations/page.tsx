@@ -5,9 +5,9 @@ import getReservations from '../actions/getReservations';
 import ReservationsClient from './ReservationsClient';
 
 
-interface ReservationsPageProps{
+// interface ReservationsPageProps{
 
-}
+// }
 
 const ReservationsPage= async ({
   
