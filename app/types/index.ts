@@ -17,7 +17,7 @@ export type SafeUser = Omit<
 
 export type SafeReservation=Omit<
     Reservation,
-    "createadAt" | "startDate" | "endDate" | "listing"
+    "createdAt" | "startDate" | "endDate" | "listing"
     > & {
         createdAt:string;
         startDate:string;
