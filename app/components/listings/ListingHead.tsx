@@ -39,9 +39,9 @@ const ListingHead:React.FC<ListingHeadProps>=({
                 fill
                 alt="Image"
                 src={imageSrc}
-                className='object-cover w-full z-[-999]'
+                className='object-cover w-full '
             />
-            <div className='absolute top-5 right-5 z-[-999]'>
+            <div className='absolute top-5 right-5 '>
                 <HeartButton 
                     listingId={id}
                     currentUser={currentUser}
